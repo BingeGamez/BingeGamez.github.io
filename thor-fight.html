@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mobile Games company from Warsaw, Poland">
+    <meta name="author" content="Krzysiek Gurniak (http://celebes.github.io/)">
+
+    <title>BingeGamez</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+		body {
+		  background: #000000;
+		  color:#cccccc;
+		  margin: 0px;
+		  padding: 0px;
+		  border: 0px;
+		}
+		canvas {
+				  image-rendering: optimizeSpeed;
+				  -webkit-interpolation-mode: nearest-neighbor;
+				  -ms-touch-action: none;
+				  margin: 0px;
+				  padding: 0px;
+				  border: 0px;
+		}
+		:-webkit-full-screen #canvas {
+			 width: 100%;
+			 height: 100%;
+		}
+		div.gm4html5_div_class
+		{
+		  margin: 0px;
+		  padding: 0px;
+		  border: 0px;
+		}
+		/* START - Login Dialog Box */
+		div.gm4html5_login
+		{
+			 padding: 20px;
+			 position: absolute;
+			 border: solid 2px #000000;
+			 background-color: #404040;
+			 color:#00ff00;
+			 border-radius: 15px;
+			 box-shadow: #101010 20px 20px 40px;
+		}
+		div.gm4html5_cancel_button
+		{
+			 float: right;
+		}
+		div.gm4html5_login_button
+		{
+			 float: left;
+		}
+		div.gm4html5_login_header
+		{
+			 text-align: center;
+		}
+		/* END - Login Dialog Box */
+		:-webkit-full-screen {
+		   width: 100%;
+		   height: 100%;
+		}
+	</style>
+</head>
+
+<body id="page-top" class="index">
+    <header>
+        <div class="container-fluid">
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-sm-2">
+                    <a href="/"><img class="img-responsive" src="img/BINGE_GAMEZ_LOGO_w.png" alt=""></a>
+                    <div class="intro-text">
+                        <hr class="star-light">
+                        <span class="skills"><i>Video Games Studio,</i></span>
+						<br/>
+						<span class="skills"><i>Created by <a href="http://celebes.github.io/" style="color: white"><strong>Krzysiek Gurniak</strong></a></i></span>
+						<a href="https://play.google.com/store/apps/developer?id=BingeGamez"><img class="img-responsive" style="width: 300px; padding-top: 35px;" src="img/google_play_logo_s.png" alt=""></a>
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="8WY7FNUWGCB9S">
+							<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">
+						</form>
+                    </div>
+					
+					<div class="text-center">
+						<ul class="list-inline">
+							<li>
+								<a href="https://www.facebook.com/BingeGamez" class="btn-social-small btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href="https://twitter.com/bingegamez" class="btn-social-small btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="https://www.reddit.com/user/BingeGamez/?sort=top" class="btn-social-small btn-outline"><i class="fa fa-fw fa-reddit-alien"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-10">
+							<h1>THOR: HAMMER TIME!</h1>
+							<hr class="star-light">
+							<p>Another rhtyhm game about Thanos hitting Thor with his own hammer! Inspired by this <span style="background-color: white;"><a href="http://imgur.com/nb2Hbd7">imgur page</a></span></p>
+							<br/><br/><br/><br/><br/><br/><br/><br/>
+							
+							<div class="gm4html5_div_class" id="gm4html5_div_id">
+								<!-- Create the canvas element the game draws to -->
+								<canvas id="canvas" width="578" height="350">
+								   <p>Your browser doesn't support HTML5 canvas.</p>
+								</canvas>
+							</div>
+							
+							<br/><br/><br/><br/><br/><br/><br/><br/>
+
+							<!-- Run the game code -->
+							<script type="text/javascript" src="thor-fight/THOR.js?PPJZB=1994206937"></script>
+							
+				</div>
+			</div>
+    </header>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; BingeGamez, <a href="http://celebes.github.io/">Krzysiek Gurniak</a>, 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+</body>
+
+</html>
